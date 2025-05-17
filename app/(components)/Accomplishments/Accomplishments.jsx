@@ -266,7 +266,7 @@ const Accomplishments = ({ accomplishments }) => {
 
                 <Grid item lg={2.1} sx={{cursor:'pointer'}} md={3} sm={4} xs={12} border='1px black sold' backgroundColor='white' borderRadius={2} paddingY={2} boxShadow={5} display='flex' flexDirection='column' alignItems='center'>
                     <Box display='flex'><AnimatedCounter
-                        end={accomplishments.total_beds || 44}
+                        end={accomplishments.total_beds || 42}
                         duration={AnimationDuration}
                         fontWeight="bold"
                         color={color4}

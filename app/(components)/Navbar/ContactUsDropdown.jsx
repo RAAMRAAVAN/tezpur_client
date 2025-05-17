@@ -30,7 +30,7 @@ const ContactUsDropdown = () => {
         <Box padding={1} sx={{ cursor: 'pointer', borderTop: '1px lightgray solid', '&:hover': { backgroundColor: 'lightgray', display: 'flex', width: '100%' } }}>
           <Box onClick={()=>setOpen(false)} display='flex'><IoIosCall  size={25} color="gray" />
             <Typography component="a"
-              href={`tel:${"6026332202" || ""}`} sx={{ cursor: "pointer" }} color="#454545" marginLeft={1}>6026332202</Typography>
+              href={`tel:${"6026332180" || ""}`} sx={{ cursor: "pointer" }} color="#454545" marginLeft={1}>6026332180</Typography>
           </Box>
         </Box>
         <Box padding={1} sx={{ cursor: 'pointer', borderTop: '1px lightgray solid', '&:hover': { backgroundColor: 'lightgray', display: 'flex', width: '100%' } }}>

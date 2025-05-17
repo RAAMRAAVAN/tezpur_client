@@ -84,7 +84,7 @@ const ContactPage = () => {
         if (Validate()) {
             try {
                 const result = await axios.post("https://accf-api.cancercareinstituteguwahati.org/api/submit-message", {
-                    "hospitalId": "5",
+                    "hospitalId": "6",
                     "name": name,
                     "email": email,
                     "mobile": mobileNo,
@@ -158,7 +158,7 @@ const ContactPage = () => {
                             <Typography fontFamily='Montserrat,sans-serif' fontWeight='600' fontSize='20px' color="#454545">Talk to Us</Typography>
                         </Box>
                         <Box paddingX={3} paddingBottom={2} display='flex' component="a"
-                            href={`tel:6026332202`} sx={{ cursor: "pointer", '&:hover': { color: 'black' } }}>
+                            href={`tel:6026332180`} sx={{ cursor: "pointer", '&:hover': { color: 'black' } }}>
                             <Box
                                 sx={{
                                     width: 70,
@@ -191,7 +191,7 @@ const ContactPage = () => {
                             <Box>
                                 <Typography fontWeight='bold' color="#58595b">Hospital's Phone Number</Typography>
                                 <Box display='flex' alignItems='baseline' sx={{ flexDirection: 'column' }}>
-                                    <Typography color="#58595b">6026332202</Typography>
+                                    <Typography color="#58595b">6026332180</Typography>
                                 </Box>
                             </Box>
                         </Box>

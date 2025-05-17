@@ -53,7 +53,7 @@ const ImageSlider = ({ id, Images = [] }) => {
       }}
     >
       <ExportedImage
-        src={`https://DARRANGcancercentre.org/uploads/newsEvents/${id}_1`}
+        src={`https://tezpurcancercentre.org/uploads/newsEvents/${id}_1`}
         alt="No Image Available"
         width={530}
         height={280}

@@ -1,7 +1,7 @@
 import { m } from "framer-motion";
 
 export const HospitalName = 'TEZPUR CANCER CENTRE';
-export const HName = '/Darrang';
+export const HName = '/Tezpur';
 export const HomePageAccess = true;
 export const AboutUsAccess = true;
 export const FacilitiesAccess = true;
@@ -17,7 +17,7 @@ export const HomeContent = {
   "_id": "67d5201b92ae82369ef8f29d",
   "id": 1,
   "heading": "South Asia's Largest Cancer Care Network",
-  "description": "Assam Cancer Care Foundation is a joint initiative between the Government of Assam and the Tata Trusts. It was set up in December 2017 to create a first-of-its-kind, three-level cancer grid in the state of Assam. The distributed care model was conceptualized by the Government of Assam and Tata Trusts to create patient-centric cancer care hospitals to deliver standardized and affordable care closer to patients' homes. With a plan to set up 17 cancer hospitals in the state of Assam, it is the largest cancer care network in South Asia. Of the 17 hospitals, Hon’ble Prime Minister, Shri Narendra Modi inaugurated seven hospitals at Dibrugarh, Barpeta, Tezpur, Lakhimpur, darrang, Kokrajhar, and Darrang and also laid the foundation stones for seven more new cancer care hospitals at Nagaon, Goalpara, Nalbari, Golaghat, Tinsukia, Sivasagar, and Dhubri on April 28, 2022. Subsequently, two more hospitals at State Cancer Institute Guwahati and Silchar were inaugurated by Hon’ble Chief Minister of Assam, Dr. Himanta Biswa Sarma in March 2024. Construction works at Diphu and the seven new sites are currently in progress.",
+  "description": "Assam Cancer Care Foundation is a joint initiative between the Government of Assam and the Tata Trusts. It was set up in December 2017 to create a first-of-its-kind, three-level cancer grid in the state of Assam. The distributed care model was conceptualized by the Government of Assam and Tata Trusts to create patient-centric cancer care hospitals to deliver standardized and affordable care closer to patients' homes. With a plan to set up 17 cancer hospitals in the state of Assam, it is the largest cancer care network in South Asia. Of the 17 hospitals, Hon’ble Prime Minister, Shri Narendra Modi inaugurated seven hospitals at Dibrugarh, Barpeta, Tezpur, Lakhimpur, Jorhat, Kokrajhar, and Darrang and also laid the foundation stones for seven more new cancer care hospitals at Nagaon, Goalpara, Nalbari, Golaghat, Tinsukia, Sivasagar, and Dhubri on April 28, 2022. Subsequently, two more hospitals at State Cancer Institute Guwahati and Silchar were inaugurated by Hon’ble Chief Minister of Assam, Dr. Himanta Biswa Sarma in March 2024. Construction works at Diphu and the seven new sites are currently in progress.",
   "HospitalID": 1,
   "updatedAt": "2025-03-18T08:51:38.302Z"
 }
@@ -27,18 +27,10 @@ export const HomeContent = {
 export const ImageSliderData = [
   {
     "_id": "6711",
-    "id": 0,
-    "HospitalID": 1,
-    "name": "Slider Image -2",
-    "path": "/Darrang/slider/Hospital Photo.jpg",
-    "active": "Y"
-  },
-  {
-    "_id": "6711",
     "id": 1,
     "HospitalID": 1,
     "name": "Slider Image -1",
-    "path": "/Darrang/slider/1.jpg",
+    "path": "/Tezpur/slider/1.jpg",
     "active": "Y"
   },
   {
@@ -46,7 +38,7 @@ export const ImageSliderData = [
     "id": 2,
     "HospitalID": 1,
     "name": "Slider Image 0",
-    "path": "/Darrang/slider/2.jpg",
+    "path": "/Tezpur/slider/2.jpg",
     "active": "Y"
   },
   {
@@ -54,7 +46,7 @@ export const ImageSliderData = [
     "id": 3,
     "HospitalID": 1,
     "name": "Slider Image 1",
-    "path": "/Darrang/slider/3.jpg",
+    "path": "/Tezpur/slider/3.jpg",
     "active": "Y"
   },
   {
@@ -62,7 +54,7 @@ export const ImageSliderData = [
     "id": 4,
     "HospitalID": 1,
     "name": "Slider Image 2",
-    "path": "/Darrang/slider/4.jpg",
+    "path": "/Tezpur/slider/4.jpg",
     "active": "Y"
   },
   {
@@ -70,7 +62,7 @@ export const ImageSliderData = [
     "id": 5,
     "HospitalID": 1,
     "name": "Slider Image 4",
-    "path": "/Darrang/slider/5.jpg",
+    "path": "/Tezpur/slider/5.jpg",
     "active": "Y"
   },
   {
@@ -78,7 +70,7 @@ export const ImageSliderData = [
     "id": 6,
     "HospitalID": 1,
     "name": "Slider Image 5",
-    "path": "/Darrang/slider/6.jpg",
+    "path": "/Tezpur/slider/6.jpg",
     "active": "Y"
   },
   {
@@ -86,7 +78,7 @@ export const ImageSliderData = [
     "id": 7,
     "HospitalID": 1,
     "name": "Slider Image 6",
-    "path": "/Darrang/slider/7.jpg",
+    "path": "/Tezpur/slider/7.jpg",
     "active": "Y"
   }
   ,
@@ -95,15 +87,7 @@ export const ImageSliderData = [
     "id": 8,
     "HospitalID": 1,
     "name": "Slider Image 8",
-    "path": "/Darrang/slider/8.jpg",
-    "active": "Y"
-  },
-  {
-    "_id": "6718",
-    "id": 9,
-    "HospitalID": 1,
-    "name": "Slider Image 9",
-    "path": "/Darrang/slider/9.jpg",
+    "path": "/Tezpur/slider/8.jpg",
     "active": "Y"
   }
 ]
@@ -118,7 +102,7 @@ export async function fetchDoctors2() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ ccode: "Darrang" }),
+      body: JSON.stringify({ ccode: "Tezpur" }),
       next: { revalidate: 900 },
       // cache: "no-store",
     });
@@ -163,7 +147,7 @@ export const FetchFacilitiesData = [{
   "read_more2": false,
   "read_more": true,
   "description": "Medical Oncology is a branch of medicine that specializes in the diagnosis and treatment of cancer. It is a super-specialty field where Medical Oncologists treat various types of cancer using medications, including chemotherapy, immunotherapy, targeted therapy, and hormone therapy.\n\nThe center has a dedicated daycare setup with modern Chemo Daycare wards.\n\nThe department operates a dedicated OPD service every day, along with daycare services for chemotherapy. In addition, the department has a long-term chemotherapy ward for hospitalized patients, supportive care wards, an isolation block for neutropenic patients, and hemato-oncology services.",
-  "path": "Darrang/Facilities/1.jpg",
+  "path": "Tezpur/Facilities/1.jpg",
   "Loader": "#0076bd",
   "color1": "#cbdae54",
   "color2": "#ced0d51",
@@ -179,7 +163,7 @@ export const FetchFacilitiesData = [{
   "read_more": false,
   "read_more2": false,
   "description": "Radiation oncology is a medical specialty that involves the controlled use of radiation to treat cancer. Radiation Oncologists treat cancer using radiation therapy, through high-energy x-rays or other particles to destroy cancer cells. The centre is equipped with state-of-the-art modern LINAC machines and Brachytherapy.",
-  "path": "Darrang/Facilities/2.jpg",
+  "path": "Tezpur/Facilities/2.jpg",
   "Loader": "#0076bd",
   "color1": "#cbdae55",
   "color2": "#ced0d52"
@@ -240,7 +224,7 @@ export const FetchFacilitiesData = [{
   "read_more": false,
   "read_more2": false,
   "description": "Radiology is the branch of medicine that makes diagnostic images of anatomic structures using electromagnetic radiation or sound waves and that treats disease using radioactive compounds. Radiological imaging techniques include x-rays, CT scans, MRIs, Mammography, ultrasonograms, etc.",
-  "path": "Darrang/Facilities/4.jpg",
+  "path": "Tezpur/Facilities/4.jpg",
   "Loader": "#0076bd",
   "color1": "#cbdae59",
   "color2": "#ced0d56"
@@ -255,7 +239,7 @@ export const FetchFacilitiesData = [{
   "read_more2": false,
   "read_more": true,
   "description": "The institute is equipped with an advanced unit with Histopathology with routine Pathology, Biochemistry etc \n\nEquipped with the state of art Autopack 300, Fuji drichem series and XN 330 hematology analyzer, we strive to adhere to the Good Laboratory Practices to provide accurate and reliable laboratory results to our patients.",
-  "path": "Darrang/Facilities/6.jpg",
+  "path": "Tezpur/Facilities/6.jpg",
   "Loader": "#0076bd",
   "color1": "#cbdae54",
   "color2": "#ced0d2",
@@ -286,7 +270,7 @@ export const FetchFacilitiesData = [{
   "read_more2": false,
   "read_more": true,
   "description": "Palliative Care is an approach that improves the quality of life of patients (adults and children) who are suffering from life limiting illness, and their families.Palliative Care includes not only cancer patients but non-cancer patients as well.\n\nAlthough Palliative Care is thought to be synonymous with Terminal or End of Life Care but it is not always true because Palliative Care should start from the time of diagnosis of a terminal illness and go along with curative treatment like surgery, chemotherapy and radiation therapy.Palliative Care extends upto bereavement support for the patient's family.\n\nPalliative Care also includes respite, hospice and home care for patients.Good communication, proper pain and other symptom management along with counselling are other aspects of Palliative Care.Palliative Care respects the ethical issues in terms of communication regarding prognostication and futile treatment.",
-  "path": "Darrang/Facilities/3.jpg",
+  "path": "Tezpur/Facilities/3.jpg",
   "Loader": "#0076bd",
   "color1": "#cbdae54",
   "color2": "#ced0d51",
@@ -381,7 +365,7 @@ export const FetchFacilitiesData = [{
   "read_more": false,
   "read_more2": false,
   "description": "Ambulance service is available.",
-  "path": "Darrang/Facilities/8.jpg",
+  "path": "Tezpur/Facilities/8.jpg",
   "Loader": "#0076bd",
   "color1": "#cbdae67",
   "color2": "#ced0d64"
@@ -430,7 +414,7 @@ export const FetchHospitalsData = [
     "Location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28580.924975775728!2d92.038973!3d26.435878!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375b1d56bc8e4d1f%3A0xdad0a9647179e4ff!2sAssam%20cancer%20care%2C%20Darrang%2C%20Mangaldoi!5e0!3m2!1sen!2sin!4v1742616576781!5m2!1sen!2sin",
     "TollFreeNumber": "18003454325",
     "WhatsAppNumber": "94356 47725",
-    "PhoneNumber": '6026332202',
+    "PhoneNumber": '6026332180',
     "Address": "Darrang Cancer Centre, Behind Mangaldai Civil Hospital, Baghpari Chapori, Mangaldai, Darrang, Assam, 784125",
     "Facebook": "https://www.facebook.com/AssamCancerCareFoundation/",
     "Twitter": "https://x.com/CareAssam",
@@ -506,22 +490,22 @@ export const FetchHospitalsData = [
     "Logo": "/Lakhimpur/logo/logo.png"
   },
 
-  {
-    "_id": "67de3bd06487342f61ecdfe5",
-    "id": 5,
-    "name": "TEZPUR CANCER CENTRE",
-    "short_name": "Tezpur",
-    "domain": "https://tezpurcancercentre.org/",
-    "Location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d912667.0492247979!2d92.662631!3d26.677103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3744c5c3e215dd71%3A0x4d4a39d59d0d40cf!2sTezpur%20cancer%20centre%20ACCF!5e0!3m2!1sen!2sin!4v1742616748044!5m2!1sen!2sin",
-    "TollFreeNumber": "+91 6026332180",
-    "WhatsAppNumber": "94356 47725",
-    "Address": "Tezpur Cancer Centre, Opposite Chandranath Sarma H.S School, Near Tezpur Medical College and Hospital, Geruabari,Bihaguri, Sonitpur, Assam, 784153",
-    "Facebook": "https://www.facebook.com/AssamCancerCareFoundation/",
-    "Twitter": "https://x.com/CareAssam",
-    "Insta": "https://www.instagram.com/careassam/",
-    "LinkedIN": "https://www.linkedin.com/company/assam-cancer-care-foundation/",
-    "Logo": "/Tezpur/logo/logo.png"
-  },
+  // {
+  //   "_id": "67de3bd06487342f61ecdfe5",
+  //   "id": 5,
+  //   "name": "TEZPUR CANCER CENTRE",
+  //   "short_name": "Tezpur",
+  //   "domain": "https://tezpurcancercentre.org/",
+  //   "Location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d912667.0492247979!2d92.662631!3d26.677103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3744c5c3e215dd71%3A0x4d4a39d59d0d40cf!2sTezpur%20cancer%20centre%20ACCF!5e0!3m2!1sen!2sin!4v1742616748044!5m2!1sen!2sin",
+  //   "TollFreeNumber": "+91 6026332180",
+  //   "WhatsAppNumber": "94356 47725",
+  //   "Address": "Tezpur Cancer Centre, Opposite Chandranath Sarma H.S School, Near Tezpur Medical College and Hospital, Geruabari,Bihaguri, Sonitpur, Assam, 784153",
+  //   "Facebook": "https://www.facebook.com/AssamCancerCareFoundation/",
+  //   "Twitter": "https://x.com/CareAssam",
+  //   "Insta": "https://www.instagram.com/careassam/",
+  //   "LinkedIN": "https://www.linkedin.com/company/assam-cancer-care-foundation/",
+  //   "Logo": "/Tezpur/logo/logo.png"
+  // },
 
   // {
   //     "_id": "67de3bd06487342f61ecdfe7",
@@ -542,32 +526,32 @@ export const FetchAboutUs = [
     "_id": "67e008c4738919e55f45e3ef",
     "HospitalID": 1,
     "title": "Who we are",
-    "short_description": "Darrang Cancer Centre – A unit of Assam Cancer Care Foundation (ACCF) - is located adjacent to Mangaldai Civil Hospital in Darrang District. With its state-of-the-art infrastructure, the 44-bedded daycare centre is equipped with advanced technology. The unit has a team of experienced Oncologists from reputed medical institutes and oncology-trained nurses to ensure best of treatment and care.",
+    "short_description": "Tezpur Cancer Centre – a unit of Assam Cancer Care Foundation (ACCF) - is located adjacent to Tezpur Medical College and Hospital (TMCH) at Tezpur. With its state-of-the-art infrastructure, the 42-bedded centre is equipped with advanced technology. The unit has a team of experienced Oncologists from reputed medical institutes and oncology-trained nurses to ensure best of treatment and care.",
     "read_more2": false,
-    "description2": "Darrang Cancer Centre – A unit of Assam Cancer Care Foundation (ACCF) - is located adjacent to Mangaldai Civil Hospital in Darrang District. With its state-of-the-art infrastructure, the 44-bedded daycare centre is equipped with advanced technology. The unit has a team of experienced Oncologists from reputed medical institutes and oncology-trained nurses to ensure best of treatment and care.",
-    "description": "Darrang Cancer Centre – A unit of Assam Cancer Care Foundation (ACCF) - is located adjacent to Mangaldai Civil Hospital in Darrang District. With its state-of-the-art infrastructure, the 44-bedded daycare centre is equipped with advanced technology. The unit has a team of experienced Oncologists from reputed medical institutes and oncology-trained nurses to ensure best of treatment and care.",
+    "description2": "Tezpur Cancer Centre – a unit of Assam Cancer Care Foundation (ACCF) - is located adjacent to Tezpur Medical College and Hospital (TMCH) at Tezpur. With its state-of-the-art infrastructure, the 42-bedded centre is equipped with advanced technology. The unit has a team of experienced Oncologists from reputed medical institutes and oncology-trained nurses to ensure best of treatment and care.",
+    "description": "Tezpur Cancer Centre – a unit of Assam Cancer Care Foundation (ACCF) - is located adjacent to Tezpur Medical College and Hospital (TMCH) at Tezpur. With its state-of-the-art infrastructure, the 42-bedded centre is equipped with advanced technology. The unit has a team of experienced Oncologists from reputed medical institutes and oncology-trained nurses to ensure best of treatment and care.",
     "active": "Y",
-    "path": "Darrang/about/whoWeAre.jpg"
+    "path": "Tezpur/about/whoWeAre.jpg"
   },
   {
     "_id": "67f1623946886839f4f9b661",
     "HospitalID": 1,
     "title": "Key facilities",
-    "short_description": "Radiation Therapy, Chemotherapy, CT Scan, MRI, X-Ray, Mammography, and laboratory services are a few of the facilities. The centralised helpdesk - DiNC (Digital Nerve Centre) connects the centre to the network of ACCF units in real time, for delivery of virtual care through effective and efficient communication. Appointments and cancer related queries can be done from the comfort of home through the helpdesk.",
+    "short_description": "Radiation Therapy, Chemotherapy, CT Scan, MRI, X-Ray, Mammography, USG, Blood Storage Unit, and laboratory services are a few of the facilities. The centralised helpdesk - DiNC (Digital Nerve Centre) connects the centre to the network of ACCF units in real time, for delivery of virtual care through effective and efficient communication. Appointments and cancer related queries can be done from the comfort of home through the helpdesk.",
     "read_more2": false,
-    "description": "Radiation Therapy, Chemotherapy, CT Scan, MRI, X-Ray, Mammography, and laboratory services are a few of the facilities. The centralised helpdesk - DiNC (Digital Nerve Centre) connects the centre to the network of ACCF units in real time, for delivery of virtual care through effective and efficient communication. Appointments and cancer related queries can be done from the comfort of home through the helpdesk.",
+    "description": "Radiation Therapy, Chemotherapy, CT Scan, MRI, X-Ray, Mammography, USG, Blood Storage Unit, and laboratory services are a few of the facilities. The centralised helpdesk - DiNC (Digital Nerve Centre) connects the centre to the network of ACCF units in real time, for delivery of virtual care through effective and efficient communication. Appointments and cancer related queries can be done from the comfort of home through the helpdesk.",
     "active": "Y",
-    "path": "Darrang/about/keyfacilities.jpg"
+    "path": "Tezpur/about/keyfacilities.jpg"
   },
   {
     "_id": "67f163b746886839f4f9b662",
     "HospitalID": 1,
     "title": "How does the centre help?",
-    "short_description": "Darrang Cancer Centre is strategically located to cater to the needs of cancer patients in Darrang, its neighbouring districts and adjacent states. Patients from neighbouring countries can also avail the services. The location of the centre has helped in reducing financial and emotional burdens of the local population, who otherwise would have travelled to state headquarters for treatment. The centre offers cashless treatment for patients under Central Government scheme – PMJAY (Ayushman Bharat Pradhan Mantri Jan Arogya Yojana) and ESIC.",
+    "short_description": "Tezpur Cancer Centre is strategically located to cater to the needs of cancer patients in Sonitpur, its neighbouring districts and adjacent states. Patients from neighbouring countries can also avail the services. The location of the centre has helped in reducing financial and emotional burdens of the local population, who otherwise would have travelled to state headquarters for treatment. The centre offers cashless treatment for patients under Central Government scheme – PMJAY (Ayushman Bharat Pradhan Mantri Jan Arogya Yojana) and ESIC.",
     "read_more2": false,
-    "description": "Darrang Cancer Centre is strategically located to cater to the needs of cancer patients in Darrang, its neighbouring districts and adjacent states. Patients from neighbouring countries can also avail the services. The location of the centre has helped in reducing financial and emotional burdens of the local population, who otherwise would have travelled to state headquarters for treatment. The centre offers cashless treatment for patients under Central Government scheme – PMJAY (Ayushman Bharat Pradhan Mantri Jan Arogya Yojana) and ESIC.",
+    "description": "Tezpur Cancer Centre is strategically located to cater to the needs of cancer patients in Sonitpur, its neighbouring districts and adjacent states. Patients from neighbouring countries can also avail the services. The location of the centre has helped in reducing financial and emotional burdens of the local population, who otherwise would have travelled to state headquarters for treatment. The centre offers cashless treatment for patients under Central Government scheme – PMJAY (Ayushman Bharat Pradhan Mantri Jan Arogya Yojana) and ESIC.",
     "active": "Y",
-    "path": "Darrang/about/centre_help.jpg"
+    "path": "Tezpur/about/centre_help.jpg"
   }
 ]
 
@@ -580,7 +564,7 @@ export async function fetchNewsAndEvents2() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ ccode: "Darrang" }),
+      body: JSON.stringify({ ccode: "Tezpur" }),
       next: { revalidate: 900 },
       // cache: "no-store",
     });
@@ -603,8 +587,8 @@ export const FetchHospitalDetails =
     "short_name": "Tezpur",
     "domain": "https://tezpurcancercentre.org/",
     "Location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d912667.0492247979!2d92.662631!3d26.677103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3744c5c3e215dd71%3A0x4d4a39d59d0d40cf!2sTezpur%20cancer%20centre%20ACCF!5e0!3m2!1sen!2sin!4v1742616748044!5m2!1sen!2sin",
-    "TollFreeNumber": "91 6026332165",
-    "PhoneNumber": "18003454325",
+    "PhoneNumber": "6026332180",
+    "TollFreeNumber": "18003454325",
     "WhatsAppNumber": "94356 47725",
     "Address": "Tezpur Cancer Centre, Opposite Chandranath Sarma H.S School, Near Tezpur Medical College and Hospital, Geruabari,Bihaguri, Sonitpur, Assam, 784153",
     "Facebook": "https://www.facebook.com/AssamCancerCareFoundation/",

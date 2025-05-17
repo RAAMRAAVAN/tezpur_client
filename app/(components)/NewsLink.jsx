@@ -91,7 +91,7 @@ export default function NewsLink() {
                     height: '175px',
                     width: '100%', // Optional: ensures it fills horizontally
                   }}
-                  image={`https://DARRANGcancercentre.org/uploads/newsEvents/${entry.id}_1`}
+                  image={`https://tezpurcancercentre.org/uploads/newsEvents/${entry.id}_1`}
                   alt="green iguana"
                 />
               </Box>

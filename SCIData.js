@@ -543,7 +543,7 @@ export const FetchHospitalsData = [
     "short_name": "Darrang",
     "domain": "https://darrangcancercentre.org/",
     "Location": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d28580.924975775728!2d92.038973!3d26.435878!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375b1d56bc8e4d1f%3A0xdad0a9647179e4ff!2sAssam%20cancer%20care%2C%20Darrang%2C%20Mangaldoi!5e0!3m2!1sen!2sin!4v1742616576781!5m2!1sen!2sin",
-    "TollFreeNumber": "+91 6026332202",
+    "TollFreeNumber": "+91 6026332180",
     "WhatsAppNumber": "94356 47725",
     "Address": "Darrang Cancer Centre, Behind Mangaldai Civil Hospital, Baghpari Chapori, Mangaldoi, Darrang, Assam, 784125",
     "Facebook": "https://www.facebook.com/AssamCancerCareFoundation/",
